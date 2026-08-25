@@ -29,4 +29,4 @@ Each video game in my collection will have the following fields:
 * **description** – A brief description of the game.
 * **platform** – The platform where the game can be played.
 * **developer** – The company or developer that created the game.
-* **image** – A link or path to an image representing the game.
+* **image(s)** – A link or path to an image representing the game.

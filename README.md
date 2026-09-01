@@ -34,4 +34,4 @@ Each video game in my collection will have the following fields:
 ## Project Progress
 - Created a shared external CSS stylesheet for all project pages.
 - Added consistent styling for the site layout, navigation, headings, collection item cards, images, header, and footer.
-- Set a Maroon background with black text for a consistent appearance across the website.
+- Set a Maroon background with white text for a consistent appearance across the website.

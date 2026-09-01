@@ -30,3 +30,8 @@ Each video game in my collection will have the following fields:
 * **platform** – The platform where the game can be played.
 * **developer** – The company or developer that created the game.
 * **image(s)** – A link or path to an image representing the game.
+
+## Project Progress
+- Created a shared external CSS stylesheet for all project pages.
+- Added consistent styling for the site layout, navigation, headings, collection item cards, images, header, and footer.
+- Set a Maroon background with black text for a consistent appearance across the website.

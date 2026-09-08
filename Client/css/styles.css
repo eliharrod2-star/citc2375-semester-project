@@ -1,86 +1,101 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: maroon;
-    line-height: 1.6;
-    margin: 0;
+:root {
+  --color-background: #800000;
+  --color-surface: #f3eafa;
+  --color-text: #000000;
+  --color-accent: #6a4c93;
 }
 
-main{
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 20px;
+/* Page */
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-header{
-    background-color: maroon;
-    color: white;
+/* Header */
+
+header {
+  background-color: var(--color-surface);
+  color: var(--color-text);
 }
 
-footer{
-    background-color: maroon;
-    color: white;
-}
-.contentwidth{
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 20px;
+/* Navigation */
+
+nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-h1{
-    font-size: 2.5rem;
-    color: white;
-    margin-bottom: 20px;
+nav a {
+  color: var(--color-accent);
+  text-decoration: none;
 }
 
-h2{
-    font-size: 1.8rem;
-    color: white;
-    margin-top: 30px;
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
 }
 
-p{
-    font-size: 1rem;
-    color: white;
+/* Main content */
+
+main {
+  color: var(--color-text);
 }
 
-.item-card{
-    background-color: lavender;
-    color: black;
-    border: 1px solid black;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
+/* Text outside item cards */
+
+main > h2,
+main > p,
+main > section > h2,
+main > section > p,
+footer p {
+  color: #000000;
 }
 
-.item-card p{
-    color: black;
+/* Game collection */
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
+/* Game cards */
+
+.item-card {
+  flex: 1 1 300px;
+  box-sizing: border-box;
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  transition: transform 0.2s ease;
 }
 
-nav a{
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
+.item-card:hover {
+  transform: translateY(-5px);
 }
 
-nav a:hover, nav a:focus{
-    color: black;
-    text-decoration: underline;
-    outline: 2px solid black;
-    outline-offset: 3px;
+/* Game card images */
+
+.item-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
-.external-link{
-    color: white;
+/* PlayStation link */
+
+main a {
+  color: var(--color-accent);
+  text-decoration: underline;
 }
-.external-link:hover, .external-link:focus{
-    color: black;
-    text-decoration: underline;
-    outline: 2px solid black;
-    outline-offset: 3px;
+
+/* Footer */
+
+footer {
+  background-color: var(--color-surface);
+  color: var(--color-text);
 }

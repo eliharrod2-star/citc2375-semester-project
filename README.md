@@ -35,3 +35,6 @@ Each video game in my collection will have the following fields:
 - Created a shared external CSS stylesheet for all project pages.
 - Added consistent styling for the site layout, navigation, headings, collection item cards, images, header, and footer.
 - Set a Maroon background with white text for a consistent appearance across the website.
+
+### Week 4
+Updated the CSS with reusable color variables and replaced repeated hard-coded colors. Added Flexbox to the navigation and game collection so the cards wrap properly on smaller screens, along with a hover effect for the game cards.

@@ -14,10 +14,23 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* Content Width */
+
+.contentwidth {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* Header */
 
 header {
   background-color: var(--color-surface);
+  color: var(--color-text);
+  padding: 20px 0;
+}
+
+header h1 {
   color: var(--color-text);
 }
 
@@ -40,23 +53,25 @@ nav a:focus {
   text-decoration: underline;
 }
 
-/* Main content */
+/* Main Content */
 
 main {
   color: var(--color-text);
+  padding: 30px 0;
 }
 
-/* Text outside item cards */
-
-main > h2,
-main > p,
-main > section > h2,
-main > section > p,
-footer p {
-  color: #000000;
+main h2,
+main p {
+  color: #ffffff;
 }
 
-/* Game collection */
+/* Sections */
+
+section {
+  margin-top: 30px;
+}
+
+/* Game Collection */
 
 .item-list {
   display: flex;
@@ -64,13 +79,13 @@ footer p {
   gap: 20px;
 }
 
-/* Game cards */
+/* Game Cards */
 
 .item-card {
   flex: 1 1 300px;
   box-sizing: border-box;
-  background-color: var(--color-surface);
-  color: var(--color-text);
+  background-color: var(--color-accent);
+  color: black;
   transition: transform 0.2s ease;
 }
 
@@ -78,7 +93,7 @@ footer p {
   transform: translateY(-5px);
 }
 
-/* Game card images */
+/* Game Card Images */
 
 .item-card img {
   max-width: 100%;
@@ -86,7 +101,7 @@ footer p {
   display: block;
 }
 
-/* PlayStation link */
+/* Links */
 
 main a {
   color: var(--color-accent);
@@ -96,6 +111,106 @@ main a {
 /* Footer */
 
 footer {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  padding: 20px 0;
+}
+
+footer p {
+  color: var(--color-text);
+}
+
+/* Form */
+
+form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: var(--color-surface);
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font: inherit;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: var(--color-text);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: 2px solid var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+/* Form Button */
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color-accent);
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #543d80;
+}
+
+/* Table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  background-color: var(--color-surface);
+  color: var(--color-text);
+}
+
+caption {
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: left;
+  color: #ffffff;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid var(--color-accent);
+  text-align: left;
+}
+
+th {
+  background-color: var(--color-accent);
+  color: #ffffff;
+}
+
+td {
   background-color: var(--color-surface);
   color: var(--color-text);
 }

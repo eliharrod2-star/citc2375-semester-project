@@ -42,3 +42,7 @@ Updated the CSS with reusable color variables and replaced repeated hard-coded c
 ## Week 5
 This week I added an Add Item page to GameVault. The new form allows users to enter information for a game, including its title, category, platform, description, and website. I added labels, appropriate input types, required fields, and built-in HTML validation.
 I also added a project information table to the About page. The table describes the main data fields used by the project. The navigation was updated on all pages so users can access the new Add page from anywhere in the site.
+
+## Week 6 – JavaScript Prototype
+Created the first JavaScript prototype for GameVault. The prototype uses JavaScript variables, arithmetic operators, template literals, booleans, and conditional statements to work with sample game collection data. The JavaScript is loaded through `app.js` and tested through the browser console. No DOM manipulation is used yet because DOM manipulation will be introduced in a later checkpoint.
+

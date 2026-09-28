@@ -46,3 +46,7 @@ I also added a project information table to the About page. The table describes 
 ## Week 6 – JavaScript Prototype
 Created the first JavaScript prototype for GameVault. The prototype uses JavaScript variables, arithmetic operators, template literals, booleans, and conditional statements to work with sample game collection data. The JavaScript is loaded through `app.js` and tested through the browser console. No DOM manipulation is used yet because DOM manipulation will be introduced in a later checkpoint.
 
+## Week 7 - Midterm Milestone
+For this checkpoint, I am preparing my project for the Exam 1 milestone. I am reviewing the required pages and navigation, checking the accessibility requirements, updating the README, verifying the GitHub repository and commit history, checking the Render deployment, and preparing the required project demonstration and submission files.
+
+

@@ -23,3 +23,8 @@ console.log(projectSummary);
 console.log(`Total rating points: ${totalRating}`);
 console.log(`Has sample games: ${hasSampleGames}`);
 console.log(collectionMessage);
+
+console.log("GameVault loaded!");
+console.log("Game with ID 1:", getItemById(1));
+console.log("RPG games:", getItemsByCategory("RPG"));
+console.log("Average game rating:", calcAvgRating());

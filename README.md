@@ -49,4 +49,16 @@ Created the first JavaScript prototype for GameVault. The prototype uses JavaScr
 ## Week 7 - Midterm Milestone
 For this checkpoint, I am preparing my project for the Exam 1 milestone. I am reviewing the required pages and navigation, checking the accessibility requirements, updating the README, verifying the GitHub repository and commit history, checking the Render deployment, and preparing the required project demonstration and submission files.
 
+### Week 8 - Update Game Data Fields
+
+Each game in the GameVault inventory is stored as an object in the `items` array.
+
+- **id:** A unique numeric identifier for each game.
+- **title:** The name of the game.
+- **category:** The genre or category of the game.
+- **description:** A short description of the game.
+- **platform:** The platform the game is available on.
+- **rating:** A numeric rating for the game.
+
+The data module includes functions to find a game by ID, filter games by category, and calculate the average game rating. It also uses JSON serialization and parsing to verify that the game data can be converted to JSON and back into JavaScript objects.
 

@@ -74,23 +74,28 @@ section {
 /* Game Collection */
 
 .item-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  align-items: stretch;
   gap: 20px;
+  width: 100%;
+
 }
 
 /* Game Cards */
 
 .item-card {
-  flex: 1 1 300px;
-  box-sizing: border-box;
-  background-color: var(--color-accent);
-  color: black;
+  background-color: #6a4c93;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   transition: transform 0.2s ease;
 }
 
+
 .item-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
 }
 
 /* Game Card Images */

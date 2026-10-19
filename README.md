@@ -62,3 +62,6 @@ Each game in the GameVault inventory is stored as an object in the `items` array
 
 The data module includes functions to find a game by ID, filter games by category, and calculate the average game rating. It also uses JSON serialization and parsing to verify that the game data can be converted to JSON and back into JavaScript objects.
 
+## Week 9 - Updated CSS styles to Grid
+I updated the GameVault game collection to use CSS Grid instead of Flexbox because Grid makes it easier to arrange game cards in multiple columns. The `repeat(auto-fit, minmax(220px, 1fr))` property automatically adjusts the number and size of columns based on the available screen width. I also used a consistent gap and reusable card styling to keep the layout organized and responsive.
+

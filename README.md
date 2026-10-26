@@ -65,3 +65,6 @@ The data module includes functions to find a game by ID, filter games by categor
 ## Week 9 - Updated CSS styles to Grid
 I updated the GameVault game collection to use CSS Grid instead of Flexbox because Grid makes it easier to arrange game cards in multiple columns. The `repeat(auto-fit, minmax(220px, 1fr))` property automatically adjusts the number and size of columns based on the available screen width. I also used a consistent gap and reusable card styling to keep the layout organized and responsive.
 
+## Week 10 - Coded Java style for Article game card elements
+GameVault saves favorite game IDs in the browser's `localStorage`, allowing users to keep track of games they want to revisit. Favorites are the main persistent preference for this collection tracker, so the app does not need to save additional view preferences.
+

@@ -6,7 +6,8 @@ export const items = [
         category: "RPG",
         description: "An action RPG following Cloud Strife and his Companions",
         platform: "PS5/PC",
-        rating: 9
+        rating: 9,
+        image: "/images/FFRebirth.png"
     },
     {
         id: 2,
@@ -14,7 +15,8 @@ export const items = [
         category: "RPG",
         description: "An open-world action RPG set in Night City following V",
         platform: "PS4-5/PC/Xbox Series X/S",
-        rating: 8
+        rating: 8,
+        image: "/images/2077.png"
     },
     {
         id: 3,
@@ -22,7 +24,8 @@ export const items = [
         category: "RPG",
         description: "An urban fantasy action RPG set in a post-apocalyptic world",
         platform: "PC/PS5/Mobile",
-        rating: 8
+        rating: 8,
+        image: "/images/ZZZ.png"
     },
     {
         id: 4,
@@ -30,7 +33,8 @@ export const items = [
         category: "Card Game",
         description: "A digital collectible card game based on Magic: The Gathering.",
         platform: "PC",
-        rating: 9
+        rating: 9,
+        image: "/images/MTG.png"
     },
     {
         id: 5,
@@ -38,7 +42,8 @@ export const items = [
         category: "Battle Royale",
         description: "An online multiplayer game featuring battle royale and building modes.",
         platform: "PC",
-        rating: 8
+        rating: 8,
+        image: "/images/fortnite.png"
     },
     {
         id: 6,
@@ -46,6 +51,7 @@ export const items = [
         category: "Action",
         description: "An action game focused on stylish combat and fighting demons.",
         platform: "PC",
-        rating: 9
+        rating: 9,
+        image: "/images/DMC.png"
     }
 ];

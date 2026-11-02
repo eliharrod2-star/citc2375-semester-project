@@ -6,6 +6,11 @@ export default function ItemCard({
 }) {
     return (
         <article className="item-card">
+            <img
+                src={item.image}
+                alt={item.title}
+                className="item-image"
+            />            
             <h2>{item.title}</h2>
 
             <p>{item.description}</p>

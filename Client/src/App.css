@@ -1,0 +1,261 @@
+
+:root {
+    --color-background: #800000;
+    --color-surface: #f3eafa;
+    --color-text: #000000;
+    --color-accent: #6a4c93;
+}
+
+/* Page */
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Content Width */
+
+.content-width {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    padding: 20px;
+}
+
+header h1 {
+    color: var(--color-text);
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+/* Main Content */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: var(--color-text);
+    padding: 30px 0;
+}
+
+main h2,
+main p {
+    color: #ffffff;
+}
+
+/* Sections */
+
+section {
+    margin-top: 30px;
+}
+
+/* Category Filter */
+
+.filter-container {
+    margin: 20px 0;
+}
+
+.filter-container label {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.filter-container select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--color-accent);
+    font: inherit;
+}
+
+/* Game Collection */
+
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Game Cards */
+
+.item-card {
+    background-color: #6a4c93;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+}
+
+.item-card:hover {
+    transform: translateY(-4px);
+}
+
+.item-card h2,
+.item-card p {
+    color: #ffffff;
+}
+
+.item-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Favorite Button */
+
+.item-card button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-surface);
+    color: var(--color-accent);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.item-card button:hover {
+    background-color: #e2d3f0;
+}
+
+/* Links */
+
+main a {
+    color: var(--color-accent);
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+    padding: 20px;
+}
+
+footer p {
+    color: var(--color-text);
+}
+
+/* Form */
+
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: var(--color-surface);
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--color-text);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font: inherit;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: var(--color-text);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: 2px solid var(--color-accent);
+    border-color: var(--color-accent);
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Form Button */
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-accent);
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #543d80;
+}
+
+/* Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background-color: var(--color-surface);
+    color: var(--color-text);
+}
+
+caption {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid var(--color-accent);
+    text-align: left;
+}
+
+th {
+    background-color: var(--color-accent);
+    color: #ffffff;
+}
+
+td {
+    background-color: var(--color-surface);
+    color: var(--color-text);
+}
+

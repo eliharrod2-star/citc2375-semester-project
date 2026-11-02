@@ -68,3 +68,6 @@ I updated the GameVault game collection to use CSS Grid instead of Flexbox becau
 ## Week 10 - Coded Java style for Article game card elements
 GameVault saves favorite game IDs in the browser's `localStorage`, allowing users to keep track of games they want to revisit. Favorites are the main persistent preference for this collection tracker, so the app does not need to save additional view preferences.
 
+## Week 11 - Migrated GameVault to React**
+GameVault was migrated from a static HTML, CSS, and JavaScript application to React using Vite. The homepage now uses reusable components for the header, game cards, and game list. Category filtering and favorite selections are managed with React state and saved in the browser's `localStorage`, allowing user preferences to persist after refreshing the page. The About and Add pages were also preserved, and the production build was tested successfully.
+

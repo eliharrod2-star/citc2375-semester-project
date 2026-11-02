@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Game - GameVault</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header>
+    <div class="content-width">
+        <h1>Video Game Collection Tracker</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="add.html">Add</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="content-width">
+        <h2>Add a Game</h2>
+
+        <p>Add a new game to your collection.</p>
+
+        <form action="#">
+            <div class="form-group">
+                <label for="title">Game Title</label>
+                <input
+                    type="text"
+                    id="title"
+                    name="title"
+                    required
+                    minlength="1"
+                    maxlength="100"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="category">Category</label>
+                <select id="category" name="category" required>
+                    <option value="">Select a category</option>
+                    <option value="RPG">RPG</option>
+                    <option value="Action">Action</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="Strategy">Strategy</option>
+                    <option value="Simulation">Simulation</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="platform">Platform</label>
+                <input
+                    type="text"
+                    id="platform"
+                    name="platform"
+                    required
+                    maxlength="50"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea
+                    id="description"
+                    name="description"
+                    rows="5"
+                    maxlength="500"
+                    required
+                ></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="website">Game Website</label>
+                <input
+                    type="url"
+                    id="website"
+                    name="website"
+                    placeholder="https://example.com"
+                >
+            </div>
+
+            <button type="submit">Add Game</button>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <div class="content-width">
+        <p>&copy; 2026 GameVault - Video Game Collection Tracker</p>
+    </div>
+</footer>
+
+</body>
+</html>

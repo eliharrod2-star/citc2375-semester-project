@@ -1,69 +1,13 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GameVault - Video Game Collection Tracker</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body>
-  <header>
-    <div class="contentwidth">
-      <h1>Video Game Collection Tracker</h1>
-
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="add.html">Add</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <div class="contentwidth">
-      <h2>Welcome to GameVault</h2>
-
-      <p>This is the GameVault - Video Game Collection Tracker.</p>
-
-      <section>
-        <h2>My Favorite Video Games</h2>
-
-        <p>
-          This collection features some of my favorite video games, including
-          RPGs and action games.
-        </p>
-
-        <div class="filter-container">
-          <label for="item-filter">Search Games:</label>
-          <input
-            type="text"
-            id="item-filter"
-            placeholder="Enter a game title"
-          >
-        </div>
-
-        <div id="item-list"></div>
-      </section>
-
-      <section>
-        <p>
-          Visit the
-          <a href="https://www.playstation.com/games/" target="_blank">
-            PlayStation games website to explore more video games
-          </a>
-        </p>
-      </section>
-    </div>
-  </main>
-
-  <footer>
-    <div class="contentwidth">
-      <p>&copy; 2026 GameVault - Video Game Collection Tracker</p>
-    </div>
-  </footer>
-
-  <script src="js/data.js" defer></script>
-  <script src="js/app.js" defer></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>client</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

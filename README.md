@@ -71,3 +71,6 @@ GameVault saves favorite game IDs in the browser's `localStorage`, allowing user
 ## Week 11 - Migrated GameVault to React**
 GameVault was migrated from a static HTML, CSS, and JavaScript application to React using Vite. The homepage now uses reusable components for the header, game cards, and game list. Category filtering and favorite selections are managed with React state and saved in the browser's `localStorage`, allowing user preferences to persist after refreshing the page. The About and Add pages were also preserved, and the production build was tested successfully.
 
+## Week 12 - Added React Router and React Forms
+
+React Router was added to GameVault to allow navigation between the Home, About, and Add Item views without reloading the page. The original About and Add pages were converted into React components while preserving their layouts and styling. The game collection was moved into React state so users can add new games through a controlled form without refreshing the page. Favorite selections continue to be saved in `localStorage` using `useEffect`. Render was configured with a rewrite rule to support direct navigation to React routes, and the production build was tested successfully.

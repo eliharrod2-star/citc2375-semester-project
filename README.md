@@ -74,3 +74,7 @@ GameVault was migrated from a static HTML, CSS, and JavaScript application to Re
 ## Week 12 - Added React Router and React Forms
 
 React Router was added to GameVault to allow navigation between the Home, About, and Add Item views without reloading the page. The original About and Add pages were converted into React components while preserving their layouts and styling. The game collection was moved into React state so users can add new games through a controlled form without refreshing the page. Favorite selections continue to be saved in `localStorage` using `useEffect`. Render was configured with a rewrite rule to support direct navigation to React routes, and the production build was tested successfully.
+
+**## Week 13 - Added JSON Data Loading and TypeScript Support**
+
+The GameVault seed data was moved into a separate `data.json` file inside the public folder. TypeScript support was added with a `tsconfig.json` configuration file, a `ProjectItem` interface, and an asynchronous data-loading function in `api.ts`. The main React component was updated to load game data from the JSON file using `useEffect` instead of importing the original seed array directly. Loading and error messages were added to provide feedback while the data is being retrieved. Existing features, including category filtering, favorites saved in `localStorage`, React Router navigation, and adding new games, were preserved.

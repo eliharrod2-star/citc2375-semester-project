@@ -1,5 +1,7 @@
+
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
+import { createItem } from '../api';
 
 export default function AddItem({ setItems }) {
     const navigate = useNavigate();
@@ -11,12 +13,13 @@ export default function AddItem({ setItems }) {
     const [website, setWebsite] = useState('');
     const [rating, setRating] = useState('');
     const [image, setImage] = useState('');
+    const [error, setError] = useState('');
 
-    function handleSubmit(event) {
+    async function handleSubmit(event) {
         event.preventDefault();
+        setError('');
 
         const newItem = {
-            id: Date.now(),
             title,
             category,
             platform,
@@ -26,12 +29,18 @@ export default function AddItem({ setItems }) {
             image
         };
 
-        setItems(currentItems => [
-            ...currentItems,
-            newItem
-        ]);
+        try {
+            const createdItem = await createItem(newItem);
 
-        navigate('/');
+            setItems(currentItems => [
+                ...currentItems,
+                createdItem
+            ]);
+
+            navigate('/');
+        } catch (err) {
+            setError(err.message);
+        }
     }
 
     return (
@@ -41,6 +50,8 @@ export default function AddItem({ setItems }) {
                     <h2>Add a Game</h2>
 
                     <p>Add a new game to your collection.</p>
+
+                    {error && <p role="alert">Error: {error}</p>}
 
                     <form onSubmit={handleSubmit}>
                         <div className="form-group">

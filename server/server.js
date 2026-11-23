@@ -23,7 +23,8 @@ const items = [
         category: "RPG",
         description: "An action RPG continuing the story of Final Fantasy VII.",
         platform: "PS5, PC",
-        rating: 9
+        rating: 9,
+        image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Fortnite_cover.jpg/220px-Fortnite_cover.jpg"
     },
     {
         id: 2,
@@ -31,7 +32,8 @@ const items = [
         category: "RPG",
         description: "An open-world RPG set in the futuristic Night City.",
         platform: "PS5, PC, Xbox Series X/S",
-        rating: 8
+        rating: 8,
+        image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Fortnite_cover.jpg/220px-Fortnite_cover.jpg"
     },
     {
         id: 3,
@@ -39,7 +41,8 @@ const items = [
         category: "RPG",
         description: "An urban fantasy action RPG.",
         platform: "PC, PS5, Mobile",
-        rating: 8
+        rating: 8,
+        image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Fortnite_cover.jpg/220px-Fortnite_cover.jpg"
     },
     {
         id: 4,
@@ -47,7 +50,8 @@ const items = [
         category: "Card Game",
         description: "A digital collectible card game based on Magic: The Gathering.",
         platform: "PC",
-        rating: 9
+        rating: 9,
+        image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Fortnite_cover.jpg/220px-Fortnite_cover.jpg"
     },
     {
         id: 5,
@@ -55,7 +59,8 @@ const items = [
         category: "Battle Royale",
         description: "A popular battle royale game with building and other game modes.",
         platform: "PC, PS5, Xbox, Switch",
-        rating: 9
+        rating: 9,
+        image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Fortnite_cover.jpg/220px-Fortnite_cover.jpg"
     },
     {
         id: 6,
@@ -63,7 +68,8 @@ const items = [
         category: "Action",
         description: "An action game featuring fast-paced combat and demon hunting.",
         platform: "PC, PlayStation, Xbox",
-        rating: 9
+        rating: 9,
+        image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Fortnite_cover.jpg/220px-Fortnite_cover.jpg"   
     }
 ];
 

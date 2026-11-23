@@ -1,0 +1,33 @@
+
+### GET all items
+GET http://localhost:3000/api/items
+
+### GET one item
+GET http://localhost:3000/api/items/1
+
+### POST a new item
+POST http://localhost:3000/api/items
+Content-Type: application/json
+
+{
+    "title": "Eli's New Game",
+    "category": "RPG",
+    "description": "A new game added through the API.",
+    "platform": "PC",
+    "rating": 8
+}
+
+### PUT update an item
+PUT http://localhost:3000/api/items/1
+Content-Type: application/json
+
+{
+    "title": "Final Fantasy VII Rebirth Updated",
+    "category": "RPG",
+    "description": "Updated through the REST API.",
+    "platform": "PS5, PC",
+    "rating": 10
+}
+
+### DELETE an item
+DELETE http://localhost:3000/api/items/6

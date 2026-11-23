@@ -24,7 +24,7 @@ const items = [
         description: "An action RPG continuing the story of Final Fantasy VII.",
         platform: "PS5, PC",
         rating: 9,
-        image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Fortnite_cover.jpg/220px-Fortnite_cover.jpg"
+        image: "/images/FFRebirth.png"
     },
     {
         id: 2,
@@ -33,7 +33,7 @@ const items = [
         description: "An open-world RPG set in the futuristic Night City.",
         platform: "PS5, PC, Xbox Series X/S",
         rating: 8,
-        image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Fortnite_cover.jpg/220px-Fortnite_cover.jpg"
+        image: "/images/2077.png"
     },
     {
         id: 3,
@@ -42,7 +42,7 @@ const items = [
         description: "An urban fantasy action RPG.",
         platform: "PC, PS5, Mobile",
         rating: 8,
-        image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Fortnite_cover.jpg/220px-Fortnite_cover.jpg"
+        image: "/images/ZZZ.png"
     },
     {
         id: 4,
@@ -51,7 +51,7 @@ const items = [
         description: "A digital collectible card game based on Magic: The Gathering.",
         platform: "PC",
         rating: 9,
-        image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Fortnite_cover.jpg/220px-Fortnite_cover.jpg"
+        image: "/images/MTG.png"
     },
     {
         id: 5,
@@ -60,7 +60,7 @@ const items = [
         description: "A popular battle royale game with building and other game modes.",
         platform: "PC, PS5, Xbox, Switch",
         rating: 9,
-        image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Fortnite_cover.jpg/220px-Fortnite_cover.jpg"
+        image: "/images/fortnite.png"
     },
     {
         id: 6,
@@ -69,7 +69,7 @@ const items = [
         description: "An action game featuring fast-paced combat and demon hunting.",
         platform: "PC, PlayStation, Xbox",
         rating: 9,
-        image: "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Fortnite_cover.jpg/220px-Fortnite_cover.jpg"   
+        image: "/images/DMC.png"
     }
 ];
 

@@ -78,3 +78,18 @@ React Router was added to GameVault to allow navigation between the Home, About,
 **## Week 13 - Added JSON Data Loading and TypeScript Support**
 
 The GameVault seed data was moved into a separate `data.json` file inside the public folder. TypeScript support was added with a `tsconfig.json` configuration file, a `ProjectItem` interface, and an asynchronous data-loading function in `api.ts`. The main React component was updated to load game data from the JSON file using `useEffect` instead of importing the original seed array directly. Loading and error messages were added to provide feedback while the data is being retrieved. Existing features, including category filtering, favorites saved in `localStorage`, React Router navigation, and adding new games, were preserved.
+
+## Final - Express REST API and Frontend Integration
+
+- Created an Express.js server for the GameVault project.
+- Added CORS and JSON middleware to handle frontend API requests.
+- Created custom middleware to log incoming HTTP requests.
+- Added a health check endpoint (`/api/health`).
+- Created REST API routes to GET all games, GET a game by ID, POST new games, PUT updates, and DELETE games.
+- Connected the React frontend to the Express backend using TypeScript and the Fetch API.
+- Created `loadItems()` to retrieve games and `createItem()` to add new games.
+- Used an environment variable (`VITE_API_URL`) to connect the frontend to the deployed API.
+- Updated game image paths and fixed image loading on the deployed website.
+- Tested the API and verified that the frontend and backend communicate correctly.
+- Deployed the frontend and backend separately using Render.
+- Updated the project README and prepared screenshots for the Exam 2 demonstration.
